@@ -1,4 +1,4 @@
-import APSJ21 G4_SENTIMENT_ANALYSIS_TWITTER_DATA.connector as con
+import APSJ21G4_SENTIMENT_ANALYSIS_TWITTER_DATA.connector as con
 
 def auth_user(email):
     query = "select * from reg_users;"
