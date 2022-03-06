@@ -3,16 +3,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 try:
-    print(
-        "ENTER 1 TO SHOW POSITIVE:\r\nENTER 2 TO SHOW NEGATIVE:\r\nENTER 3 TO SHOW NEUTRAL:\r\nENTER 4 TO SHOW SCATTER CHART:\r\nENTER 5 TO SHOW BAR CHART:\r\nENTER 6 TO EXIT:")
-
-
     def main_sa():
         delimiters = ["[", "'", "]", "(", ")"]
         pos = 0
         neg = 0
         neu = 0
         y = []
+        print("ENTER 1 TO SHOW POSITIVE TWEETS:\r\nENTER 2 TO SHOW NEGATIVE TWEETS:\r\nENTER 3 TO SHOW NEUTRAL TWEETS:\r\nENTER 4 TO SHOW SCATTER CHART:\r\nENTER 5 TO SHOW BAR CHART:\r\nENTER 6 TO EXIT:")
         a = int(input())
 
         with open('Twitter_Data.csv', 'r',errors='ignore') as file:
@@ -37,13 +34,13 @@ try:
                     neg += 1
 
         if a == 1:
-            print("Total Positive", pos)
+            print("Total Positive Tweets:", pos)
             main_sa()
         elif a == 2:
-            print("Total Negative", neg)
+            print("Total Negative Tweets:", neg)
             main_sa()
         elif a == 3:
-            print("Total Neutral", neu)
+            print("Total Neutral Tweets:1", neu)
             main_sa()
         elif a == 4:
             x = np.random.normal(min(y), max(y), len(y))
@@ -61,6 +58,5 @@ try:
             main_sa()
         elif a == 6:
             exit()
-    main_sa()
 except Exception as e:
     print(e)

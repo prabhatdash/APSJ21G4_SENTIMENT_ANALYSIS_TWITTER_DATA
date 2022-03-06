@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7897bb9-bbed-4c4f-b4fb-c2128615da84" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/APSJ21G4_SENTIMENT_ANALYSIS_TWITTER_DATA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APSJ21G4_SENTIMENT_ANALYSIS_TWITTER_DATA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Twitter_Data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter_Data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dashboard">
+  <component name="RunManager" selected="Python.main">
     <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="APSJ21G4_SENTIMENT_ANALYSIS_TWITTER_DATA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,8 +147,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dashboard" />
-        <item itemvalue="Python.auth" />
         <item itemvalue="Python.otp_sender" />
+        <item itemvalue="Python.auth" />
         <item itemvalue="Python.connector" />
       </list>
     </recent_temporary>
